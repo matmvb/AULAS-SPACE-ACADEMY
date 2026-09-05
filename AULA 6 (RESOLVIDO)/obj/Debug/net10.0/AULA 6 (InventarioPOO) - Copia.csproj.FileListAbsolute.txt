@@ -1,0 +1,29 @@
+E:\ARQUIVOS SPACE\AULAS CURSO 2.0\AULAS SABADO\AULA 6 (InventarioPOO) - Copia\bin\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.exe
+E:\ARQUIVOS SPACE\AULAS CURSO 2.0\AULAS SABADO\AULA 6 (InventarioPOO) - Copia\bin\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.deps.json
+E:\ARQUIVOS SPACE\AULAS CURSO 2.0\AULAS SABADO\AULA 6 (InventarioPOO) - Copia\bin\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.runtimeconfig.json
+E:\ARQUIVOS SPACE\AULAS CURSO 2.0\AULAS SABADO\AULA 6 (InventarioPOO) - Copia\bin\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.dll
+E:\ARQUIVOS SPACE\AULAS CURSO 2.0\AULAS SABADO\AULA 6 (InventarioPOO) - Copia\bin\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.pdb
+E:\ARQUIVOS SPACE\AULAS CURSO 2.0\AULAS SABADO\AULA 6 (InventarioPOO) - Copia\obj\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.GeneratedMSBuildEditorConfig.editorconfig
+E:\ARQUIVOS SPACE\AULAS CURSO 2.0\AULAS SABADO\AULA 6 (InventarioPOO) - Copia\obj\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.AssemblyInfoInputs.cache
+E:\ARQUIVOS SPACE\AULAS CURSO 2.0\AULAS SABADO\AULA 6 (InventarioPOO) - Copia\obj\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.AssemblyInfo.cs
+E:\ARQUIVOS SPACE\AULAS CURSO 2.0\AULAS SABADO\AULA 6 (InventarioPOO) - Copia\obj\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.csproj.CoreCompileInputs.cache
+E:\ARQUIVOS SPACE\AULAS CURSO 2.0\AULAS SABADO\AULA 6 (InventarioPOO) - Copia\obj\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.dll
+E:\ARQUIVOS SPACE\AULAS CURSO 2.0\AULAS SABADO\AULA 6 (InventarioPOO) - Copia\obj\Debug\net10.0\refint\AULA 6 (InventarioPOO) - Copia.dll
+E:\ARQUIVOS SPACE\AULAS CURSO 2.0\AULAS SABADO\AULA 6 (InventarioPOO) - Copia\obj\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.pdb
+E:\ARQUIVOS SPACE\AULAS CURSO 2.0\AULAS SABADO\AULA 6 (InventarioPOO) - Copia\obj\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.genruntimeconfig.cache
+E:\ARQUIVOS SPACE\AULAS CURSO 2.0\AULAS SABADO\AULA 6 (InventarioPOO) - Copia\obj\Debug\net10.0\ref\AULA 6 (InventarioPOO) - Copia.dll
+E:\ARQUIVOS SPACE\SPACE ACADEMY\AULAS SPACE ACADEMY\AULA 6 (RESOLVIDO)\bin\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.exe
+E:\ARQUIVOS SPACE\SPACE ACADEMY\AULAS SPACE ACADEMY\AULA 6 (RESOLVIDO)\bin\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.deps.json
+E:\ARQUIVOS SPACE\SPACE ACADEMY\AULAS SPACE ACADEMY\AULA 6 (RESOLVIDO)\bin\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.runtimeconfig.json
+E:\ARQUIVOS SPACE\SPACE ACADEMY\AULAS SPACE ACADEMY\AULA 6 (RESOLVIDO)\bin\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.dll
+E:\ARQUIVOS SPACE\SPACE ACADEMY\AULAS SPACE ACADEMY\AULA 6 (RESOLVIDO)\bin\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.pdb
+E:\ARQUIVOS SPACE\SPACE ACADEMY\AULAS SPACE ACADEMY\AULA 6 (RESOLVIDO)\obj\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.GeneratedMSBuildEditorConfig.editorconfig
+E:\ARQUIVOS SPACE\SPACE ACADEMY\AULAS SPACE ACADEMY\AULA 6 (RESOLVIDO)\obj\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.AssemblyInfoInputs.cache
+E:\ARQUIVOS SPACE\SPACE ACADEMY\AULAS SPACE ACADEMY\AULA 6 (RESOLVIDO)\obj\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.AssemblyInfo.cs
+E:\ARQUIVOS SPACE\SPACE ACADEMY\AULAS SPACE ACADEMY\AULA 6 (RESOLVIDO)\obj\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.csproj.CoreCompileInputs.cache
+E:\ARQUIVOS SPACE\SPACE ACADEMY\AULAS SPACE ACADEMY\AULA 6 (RESOLVIDO)\obj\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.sourcelink.json
+E:\ARQUIVOS SPACE\SPACE ACADEMY\AULAS SPACE ACADEMY\AULA 6 (RESOLVIDO)\obj\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.dll
+E:\ARQUIVOS SPACE\SPACE ACADEMY\AULAS SPACE ACADEMY\AULA 6 (RESOLVIDO)\obj\Debug\net10.0\refint\AULA 6 (InventarioPOO) - Copia.dll
+E:\ARQUIVOS SPACE\SPACE ACADEMY\AULAS SPACE ACADEMY\AULA 6 (RESOLVIDO)\obj\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.pdb
+E:\ARQUIVOS SPACE\SPACE ACADEMY\AULAS SPACE ACADEMY\AULA 6 (RESOLVIDO)\obj\Debug\net10.0\AULA 6 (InventarioPOO) - Copia.genruntimeconfig.cache
+E:\ARQUIVOS SPACE\SPACE ACADEMY\AULAS SPACE ACADEMY\AULA 6 (RESOLVIDO)\obj\Debug\net10.0\ref\AULA 6 (InventarioPOO) - Copia.dll

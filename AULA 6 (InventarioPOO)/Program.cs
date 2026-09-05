@@ -33,7 +33,6 @@ class Program
         // TODO: EXERCÍCIO 3 - Encontrar os 3 itens mais valiosos
         // var top3 = itens.OrderByDescending(i => i.Valor).Take(3);
         // Exibir o Top 3
-
         // TODO: DESAFIO EXTRA - Agrupar os itens por tipo e mostrar a quantidade de cada tipo
         // var grupoPorTipo = itens.GroupBy(i => i.Tipo);
         // Exibir: "Armas: 2 itens", "Poções: 2 itens", etc.

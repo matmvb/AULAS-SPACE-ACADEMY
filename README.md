@@ -28,6 +28,7 @@ git pull
 |------|----------|--------|
 | Aula 6 | Sistema de Inventário (POO + LINQ) | ✅ Resolvido |
 | Aula 7 | Banco de Dados de Jogo (SQL) | 📝 Desafio disponível |
+| Aula 8 | Conectividade C# + MySQL | 📝 Desafio disponível |
 
 > Status: 📝 = desafio para fazer · ✅ = gabarito/resolução publicado
 
@@ -35,9 +36,10 @@ git pull
 
 ```
 📁 AULAS SPACE ACADEMY
-├── 📁 AULA 6 (RESOLVIDO)/       → Gabarito da Aula 6
-├── 📁 AULA 7 (Banco de Dados)/  → Desafio da Aula 7
-└── README.md                    → Este arquivo
+├── 📁 AULA 6 (RESOLVIDO)/                 → Gabarito da Aula 6
+├── 📁 AULA 7 (Banco de Dados)/            → Desafio da Aula 7
+├── 📁 AULA 8 (Conectividade C# MySQL)/    → Desafio da Aula 8
+└── README.md                              → Este arquivo
 ```
 
 ## ✏️ Como funcionam os desafios

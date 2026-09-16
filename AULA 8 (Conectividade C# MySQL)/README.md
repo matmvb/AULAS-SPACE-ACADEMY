@@ -16,6 +16,48 @@ Crie um programa de console com um menu que permite:
 - ✅ Banco `meujogo` criado (use os arquivos SQL da Aula 7)
 - ✅ .NET 10 instalado (já usado na Aula 6)
 
+## 🖥️ Como conectar no MySQL Workbench
+
+### 1. Abrir o Workbench e conectar no servidor
+
+1. Abra o **MySQL Workbench**.
+2. Clique na conexão **Local instance MySQL** (se não existir, crie: botão **+** →
+   Hostname: `localhost`, Port: `3306`, User: `root`).
+3. Informe a **senha do `root`** quando o Workbench pedir.
+
+### 2. Criar o banco de dados
+
+Em uma aba de consulta (QUERY), rode:
+
+```sql
+CREATE DATABASE meujogo;
+```
+
+### 3. Criar as tabelas e popular os dados (SQLs da Aula 7)
+
+1. Clique em **File → Open SQL Script** e abra o arquivo `01_criar_tabelas.sql` da Aula 7.
+2. Rode com **Ctrl + Shift + Enter** (ou o botão ⚡ *Execute*).
+3. Repita o mesmo com o arquivo `02_inserir_dados.sql` para inserir os dados de exemplo.
+4. No painel **Navigator**, clique com o botão direito em `meujogo` → **Refresh All**
+   para ver as tabelas `jogadores`, `personagens`, `itens` e `inventario`.
+
+### 4. Testar a conexão
+
+Rode uma consulta simples para confirmar que está tudo certo:
+
+```sql
+USE meujogo;
+SELECT * FROM jogadores;
+```
+
+> 💡 A **connection string** do C# precisa "bater" com essa conexão:
+>
+> ```csharp
+> Server=localhost;Database=meujogo;Uid=root;Pwd=SUA_SENHA;
+> ```
+>
+> Onde `SUA_SENHA` é **a mesma senha** que você digitou no Workbench.
+
 ## 📌 Passo a passo
 
 ### 1. Preparar a pasta do projeto

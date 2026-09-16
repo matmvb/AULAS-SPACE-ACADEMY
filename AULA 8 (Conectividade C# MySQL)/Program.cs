@@ -18,7 +18,7 @@ class Program
             Console.WriteLine("3 - Atualizar o Nível de um Jogador");
             Console.WriteLine("0 - Sair");
             Console.Write("Escolha uma opção: ");
-            opcao = Console.ReadLine();
+            opcao = Console.ReadLine()!;
 
             switch (opcao)
             {

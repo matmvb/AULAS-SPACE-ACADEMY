@@ -48,14 +48,14 @@ public class ConexaoBanco
     {
         // >>> ESCREVA SEU CÓDIGO AQUI <<<
 
-        return null; // REMOVA esta linha quando terminar
+        return new List<Jogador>(); // VALOR PADRÃO - troque pela lista preenchida
     }
 
     // ==========================================================
     // DESAFIO 3: Atualizar o nível de um jogador
     // ==========================================================
     // Objetivo: Alterar o nível de um jogador pelo id.
-    // Dica: Use o camando UPDATE
+    // Dica: Use o comando UPDATE
     // Passos:
     //   1. Abrir a conexão
     //   2. Executar: UPDATE jogadores SET nivel = @nivel WHERE id = @id

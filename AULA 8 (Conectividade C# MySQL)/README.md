@@ -18,34 +18,34 @@ Crie um programa de console com um menu que permite:
 
 ## 📌 Passo a passo
 
-### 1. Criar o projeto
+### 1. Preparar a pasta do projeto
 
-Abra o terminal **na pasta desta aula** e crie o projeto:
+Crie uma pasta chamada `Aula8Conectividade` e copie para dentro dela os arquivos desta aula:
+
+- `Aula8Conectividade.csproj`
+- `Jogador.cs`
+- `ConexaoBanco.cs`
+- `Program.cs`
+
+> O arquivo `.csproj` **já vem com o pacote `MySql.Data` configurado** (seção 6.1).
+
+### 2. (Opcional) Instalar o conector do zero
+
+Se quiser praticar a instalação do conector (seção 6.1 do capítulo), crie o projeto do zero:
 
 ```bash
 dotnet new console --name Aula8Conectividade -o Aula8Conectividade
-```
-
-> Se preferir, já deixamos o arquivo `Aula8Conectividade.csproj` pronto para você.
-
-### 2. Instalar o conector MySQL
-
-```bash
 dotnet add package MySql.Data
 ```
 
-### 3. Copiar os arquivos da aula
-
-Copie `Jogador.cs`, `ConexaoBanco.cs` e `Program.cs` para dentro do projeto criado.
-
-### 4. Completar os desafios
+### 3. Completar os desafios
 
 - **Desafio 0**: Preencher a `connection string` (sua senha do MySQL)
 - **Desafio 1**: Implementar `InserirJogador()` (INSERT com parâmetros `@nome`, `@email`, `@nivel`)
 - **Desafio 2**: Implementar `ListarJogadores()` (SELECT com `reader`)
 - **Desafio 3**: Implementar `AtualizarNivel()` (UPDATE com `@nivel` e `@id`)
 
-### 5. Rodar
+### 4. Rodar
 
 ```bash
 dotnet run

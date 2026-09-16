@@ -1,17 +1,42 @@
 using System;
 using System.Collections.Generic;
-using MySql.Data.MySqlClient;
+using Microsoft.Data.Sqlite;
 
 public class ConexaoBanco
 {
     // ==========================================================
     // DESAFIO 0: Preencher a connection string
     // ==========================================================
-    // Dica: Ajuste apenas a senha (Pwd) para a senha do seu MySQL.
-    // private string _connectionString = "Server=localhost;Database=meujogo;Uid=root;Pwd=SUA_SENHA;";
+    // Dica: Com SQLite não precisa instalar nada!
+    // O banco é um simples arquivo .db que o programa cria sozinho.
+    // private string _connectionString = "Data Source=meujogo.db;";
 
     // >>> ESCREVA SEU CÓDIGO AQUI <<<
 
+
+    // ==========================================================
+    // BANCO AUTOMÁTICO (JÁ PRONTO - não precisa mexer)
+    // Cria o arquivo meujogo.db e a tabela jogadores,
+    // caso ainda não existam.
+    // ==========================================================
+    public void CriarTabelaJogadores()
+    {
+        using (var conn = new SqliteConnection(_connectionString))
+        {
+            conn.Open();
+            string sql = @"
+                CREATE TABLE IF NOT EXISTS jogadores (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    nome TEXT NOT NULL,
+                    email TEXT NOT NULL UNIQUE,
+                    nivel INTEGER NOT NULL DEFAULT 1
+                );";
+            using (var cmd = new SqliteCommand(sql, conn))
+            {
+                cmd.ExecuteNonQuery();
+            }
+        }
+    }
 
     // ==========================================================
     // DESAFIO 1: Cadastrar um novo jogador
@@ -19,7 +44,7 @@ public class ConexaoBanco
     // Objetivo: Inserir um jogador na tabela usando parâmetros.
     // Dica: Use @nome, @email e @nivel (proteção contra SQL Injection!)
     // Passos:
-    //   1. Abrir a conexão (using var conn = new MySqlConnection(_connectionString))
+    //   1. Abrir a conexão (using var conn = new SqliteConnection(_connectionString))
     //   2. conn.Open()
     //   3. Executar: INSERT INTO jogadores (nome, email, nivel)
     //                VALUES (@nome, @email, @nivel)
@@ -40,8 +65,10 @@ public class ConexaoBanco
     //   2. Abrir a conexão e executar:
     //      SELECT id, nome, email, nivel FROM jogadores
     //   3. Percorrer o reader com while (reader.Read()) e adicionar
-    //      cada jogador na lista usando o object initializer:
-    //      new Jogador { Id = reader.GetInt32("id"), ... }
+    //      cada jogador na lista usando o indexador do reader:
+    //      Id = Convert.ToInt32(reader["id"]),
+    //      Nome = Convert.ToString(reader["nome"]) ?? "",
+    //      ...
     //   4. Devolver a lista
 
     public List<Jogador> ListarJogadores()

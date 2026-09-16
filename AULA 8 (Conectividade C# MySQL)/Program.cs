@@ -4,10 +4,13 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("=== SISTEMA DE JOGO - C# + MySQL ===\n");
+        Console.WriteLine("=== SISTEMA DE JOGO - C# + SQLite ===\n");
 
         // TODO: Criar uma instância da classe ConexaoBanco
         // var banco = new ConexaoBanco();
+        //
+        // TODO: Criar o banco e a tabela (método JÁ PRONTO na classe):
+        // banco.CriarTabelaJogadores();
 
         string opcao;
         do

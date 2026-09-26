@@ -28,7 +28,7 @@ git pull
 |------|----------|--------|
 | Aula 6 | Sistema de Inventário (POO + LINQ) | ✅ Resolvido |
 | Aula 7 | Banco de Dados de Jogo (SQL) | ✅ Resolvido |
-| Aula 8 | Conectividade C# + SQLite | 📝 Desafio disponível |
+| Aula 8 | Conectividade C# + SQLite | ✅ Resolvido |
 
 > Status: 📝 = desafio para fazer · ✅ = gabarito/resolução publicado
 
@@ -39,6 +39,7 @@ git pull
 ├── 📁 AULA 6 (RESOLVIDO)/                 → Gabarito da Aula 6
 ├── 📁 AULA 7 (RESOLVIDO)/                 → Gabarito da Aula 7
 ├── 📁 AULA 8 (Conectividade C# MySQL)/    → Desafio da Aula 8 (SQLite)
+├── 📁 AULA 8 (RESOLVIDO)/                 → Gabarito da Aula 8
 └── README.md                              → Este arquivo
 ```
 

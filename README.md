@@ -38,7 +38,6 @@ git pull
 📁 AULAS SPACE ACADEMY
 ├── 📁 AULA 6 (RESOLVIDO)/                 → Gabarito da Aula 6
 ├── 📁 AULA 7 (RESOLVIDO)/                 → Gabarito da Aula 7
-├── 📁 AULA 8 (Conectividade C# MySQL)/    → Desafio da Aula 8 (SQLite)
 ├── 📁 AULA 8 (RESOLVIDO)/                 → Gabarito da Aula 8
 └── README.md                              → Este arquivo
 ```

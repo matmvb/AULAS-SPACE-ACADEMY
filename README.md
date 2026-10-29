@@ -36,11 +36,17 @@ git pull
 
 ```
 📁 AULAS SPACE ACADEMY
-├── 📁 AULA 6 (RESOLVIDO)/                 → Gabarito da Aula 6
+├── 📁 AULA 6 (RESOLVIDO)/                 → Gabarito da Aula 6 (POO + LINQ)
+├── 📁 AULA 7 (Banco de Dados)/            → Material da Aula 7 (SQL)
 ├── 📁 AULA 7 (RESOLVIDO)/                 → Gabarito da Aula 7
-├── 📁 AULA 8 (RESOLVIDO)/                 → Gabarito da Aula 8
+├── 📁 AULA 8 (Conectividade C# MySQL)/    → Material da Aula 8
+├── 📁 AULA 8 (RESOLVIDO)/                 → Gabarito da Aula 8 (C# + SQLite)
+├── 📁 AULAS UNITY/                        → Projetos Unity (não versionados)
 └── README.md                              → Este arquivo
 ```
+
+> As pastas `bin/` e `obj/` (.NET) e as pastas internas dos projetos Unity
+> (`Library/`, `Temp/`, etc.) não vão para o repositório — veja o `.gitignore`.
 
 ## ✏️ Como funcionam os desafios
 

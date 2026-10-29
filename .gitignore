@@ -1,3 +1,34 @@
-# Build artifacts (.NET)
+# ---------- .NET (build) ----------
 bin/
 obj/
+*.user
+*.suo
+.vs/
+
+# ---------- SQLite (gerado em runtime pelo programa) ----------
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# ---------- Unity ----------
+# Os projetos Unity ficam em "AULAS UNITY/". Nada disso deve ser versionado:
+# sao pastas regeneradas pelo Editor (chegam a varios GB) e arquivos de projeto
+# gerados automaticamente a cada abertura.
+AULAS UNITY/**/Library/
+AULAS UNITY/**/Temp/
+AULAS UNITY/**/Logs/
+AULAS UNITY/**/UserSettings/
+AULAS UNITY/**/Build/
+AULAS UNITY/**/Builds/
+AULAS UNITY/**/MemoryCaptures/
+AULAS UNITY/**/Recordings/
+AULAS UNITY/**/*.csproj
+AULAS UNITY/**/*.sln
+AULAS UNITY/**/*.unityproj
+
+# ---------- Sistema ----------
+.DS_Store
+Thumbs.db
+desktop.ini

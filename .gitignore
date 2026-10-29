@@ -28,6 +28,10 @@ AULAS UNITY/**/*.csproj
 AULAS UNITY/**/*.sln
 AULAS UNITY/**/*.unityproj
 
+# Projeto de tutorial que acompanha o Unity (videos .webm e texturas, ~1,5 GB).
+# Nao e conteudo produzido nas aulas — e o sample oficial do Editor.
+AULAS UNITY/Tutorial no Editor do Guia de Configuração/
+
 # ---------- Sistema ----------
 .DS_Store
 Thumbs.db

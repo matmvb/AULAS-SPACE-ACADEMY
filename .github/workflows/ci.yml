@@ -1,0 +1,46 @@
+name: CI
+
+# Garante que os gabaritos em C# realmente compilam.
+# Sem isso, um erro de sintaxe ou uma referência quebrada só aparece quando
+# o aluno abre o projeto na aula.
+#
+# As Aulas 7 (SQL) e 8 (SQLite) não têm código C# compilável além do projeto
+# da Aula 8, que é coberto aqui.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  dotnet:
+    name: Compilar projetos C#
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        projeto:
+          - "AULA 6 (RESOLVIDO)/AULA 6 (InventarioPOO) - Copia.csproj"
+          - "AULA 8 (RESOLVIDO)/Aula8Conectividade.csproj"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Preparar .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Restaurar e compilar
+        run: dotnet build "${{ matrix.projeto }}" --configuration Release
